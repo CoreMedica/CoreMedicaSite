@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+// Text alignment
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+
+// Colour helpers
+.text-gold    { color: $color-gold; }
+.text-teal    { color: $color-teal; }
+.text-muted   { color: rgba($color-text-dark, 0.55); }
+.text-light   { color: $color-text-light; }
+
+// Display
+.d-none       { display: none; }
+.d-block      { display: block; }
+
+// Spacing helpers (margin-top scale)
+.mt-sm   { margin-top: $space-sm; }
+.mt-md   { margin-top: $space-md; }
+.mt-lg   { margin-top: $space-lg; }
+.mt-xl   { margin-top: $space-xl; }
+.mt-2xl  { margin-top: $space-2xl; }
+
+// Accessible visually-hidden
+.sr-only  { @include visually-hidden; }

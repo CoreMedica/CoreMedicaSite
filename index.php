@@ -1,6 +1,7 @@
 <?php
 $pageTitle = 'CoreMedica Wellness Group | Earwax Removal & Wellness Services';
 $pageDescription = 'Professional microsuction earwax removal and wellness consultations in Southampton and Portsmouth.';
+$activePage      = 'home';
 require_once 'includes/header.php';
 ?>
 
