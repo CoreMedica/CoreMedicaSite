@@ -1,0 +1,30 @@
+@use 'variables' as *;
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-body;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $text-dark;
+    background-color: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+a {
+    color: $teal;
+    text-decoration: none;
+
+    &:hover {
+        color: $gold;
+    }
+}

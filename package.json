@@ -1,0 +1,19 @@
+{
+  "name": "coremedicasite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass assets/sass/main.scss assets/css/main.css --watch --no-source-map",
+    "sass:build": "sass assets/sass/main.scss assets/css/main.min.css --style=compressed --no-source-map",
+    "js:build": "terser assets/js/main.js -o assets/js/main.min.js --compress --mangle",
+    "build": "npm run sass:build && npm run js:build",
+    "watch": "npm run sass:watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.98.0",
+    "terser": "^5.46.1"
+  }
+}
