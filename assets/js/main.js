@@ -156,3 +156,31 @@ if (megaItem && megaTrigger && megaMenu) {
     }
   });
 })();
+
+// ─── FAQ Accordion ───────────────────────────────────────────
+(function () {
+  const triggers = document.querySelectorAll('.faq-item__trigger');
+  if (!triggers.length) return;
+
+  triggers.forEach(function (trigger) {
+    trigger.addEventListener('click', function () {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      const answerId = this.getAttribute('aria-controls');
+      const answer   = document.getElementById(answerId);
+
+      // Collapse all others
+      triggers.forEach(function (t) {
+        const id  = t.getAttribute('aria-controls');
+        const ans = document.getElementById(id);
+        t.setAttribute('aria-expanded', 'false');
+        if (ans) ans.hidden = true;
+      });
+
+      // Toggle current
+      if (!expanded) {
+        this.setAttribute('aria-expanded', 'true');
+        answer.hidden = false;
+      }
+    });
+  });
+}());

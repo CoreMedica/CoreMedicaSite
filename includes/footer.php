@@ -1,6 +1,3 @@
-</div><!-- /.container -->
-</main>
-
 <footer class="site-footer" role="contentinfo">
 
     <!-- Upper footer -->
