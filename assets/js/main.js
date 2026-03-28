@@ -184,3 +184,26 @@ if (megaItem && megaTrigger && megaMenu) {
     });
   });
 }());
+
+// ─── Reviews — show more ─────────────────────────────────────
+(function () {
+  const btn     = document.getElementById('reviews-show-more');
+  if (!btn) return;
+
+  const hidden  = document.querySelectorAll('.review-card--hidden');
+
+  btn.addEventListener('click', function () {
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+
+    hidden.forEach(function (card) {
+      if (!expanded) {
+        card.classList.add('is-visible');
+      } else {
+        card.classList.remove('is-visible');
+      }
+    });
+
+    this.setAttribute('aria-expanded', String(!expanded));
+    this.textContent = expanded ? 'Show More Reviews' : 'Show Fewer Reviews';
+  });
+}());

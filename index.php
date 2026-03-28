@@ -508,9 +508,7 @@ require_once 'includes/header.php';
   ════════════════════════════════════════════ -->
     <section class="trust-strip" aria-labelledby="trust-heading">
         <div class="container">
-
-            <h2 class="sr-only" id="trust-heading">Why patients choose CoreMedica</h2>
-
+            <h2 class="visually-hidden" id="trust-heading">Why patients choose CoreMedica</h2>
             <ul class="trust-strip__stats" role="list">
                 <li class="trust-strip__stat">
                     <span class="trust-strip__stat-value">5&#9733;</span>
@@ -529,21 +527,237 @@ require_once 'includes/header.php';
                     <span class="trust-strip__stat-label">Most Appointments</span>
                 </li>
             </ul>
+        </div>
+    </section>
 
-            <blockquote class="trust-strip__testimonial">
-                <svg class="trust-strip__quote-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 30" aria-hidden="true" focusable="false">
-                    <path d="M0 30V18C0 8 6 2 18 0l2 4C12 6 9 10 9 14h7v16H0zm22 0V18C22 8 28 2 40 0l2 4C34 6 31 10 31 14h7v16H22z" />
-                </svg>
-                <p class="trust-strip__testimonial-text">
-                    Absolutely painless and so much quicker than I expected. My hearing had been
-                    muffled for weeks — I came out hearing everything perfectly. I can't recommend
-                    CoreMedica highly enough.
+    <!-- ═══════════════════════════════════════════
+     REVIEWS
+════════════════════════════════════════════ -->
+    <section class="reviews-section" aria-labelledby="reviews-heading">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-header__heading" id="reviews-heading">What Our Patients Say</h2>
+                <p class="section-header__lead">
+                    Real experiences from real patients across Southampton and Portsmouth.
+                    All reviews are collected via Fresha and Google.
                 </p>
-                <footer class="trust-strip__testimonial-cite">
-                    <cite>Sarah M. &mdash; Southampton</cite>
-                </footer>
-            </blockquote>
+            </div>
 
+            <div class="reviews-layout">
+
+                <!-- Featured review -->
+                <div class="review-featured" aria-label="Featured patient review">
+                    <div class="review-featured__stars" aria-label="5 stars out of 5">
+                        <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <svg class="review-featured__quote" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 40 30" aria-hidden="true" focusable="false">
+                        <path d="M0 30V18C0 8 6 2 18 0l2 4C12 6 9 10 9 14h7v16H0zm22 0V18C22 8 28 2 40 0l2 4C34 6 31 10 31 14h7v16H22z" />
+                    </svg>
+                    <blockquote class="review-featured__text">
+                        <p>AMAZING&hellip; Anyone who&rsquo;s experienced the misery and pain of blocked
+                            ears will know the total BLISS of that last crackle before your ears are clear.</p>
+                        <footer class="review-featured__cite">
+                            <cite>Susan R</cite>
+                            <span class="review-featured__source">via Fresha</span>
+                        </footer>
+                    </blockquote>
+                    <div class="review-featured__badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            aria-hidden="true" focusable="false">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Verified patient review
+                    </div>
+                </div>
+
+                <!-- Review grid -->
+                <div class="reviews-grid-wrap">
+                    <ul class="reviews-grid" role="list">
+
+                        <!-- Always visible reviews -->
+                        <li class="review-card">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>A great service — the team were professional, timely and very
+                                    knowledgeable and efficient. I just feel amazing since having the
+                                    procedure. It&rsquo;s made a great difference to the pain and my hearing;
+                                    my ear definitely feels normal again.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Eileen B</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Excellent service — both professional and friendly. Booking was
+                                    simple, and the experience was very reassuring. Would recommend.
+                                    10 out of 10.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Michael K</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Very good. Greeted by name at reception, seen promptly, friendly
+                                    team, clear communication, relaxed atmosphere. Most importantly,
+                                    great results. I can hear again!</p>
+                                <footer class="review-card__cite">
+                                    <cite>Gordon B</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Jacqueline carried out the procedure very quickly and successfully.
+                                    Very friendly and knowledgeable.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Jane M</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>A million times better than trying to get anything done on the NHS!
+                                    My Dad&rsquo;s hearing has greatly improved. Thank you!!</p>
+                                <footer class="review-card__cite">
+                                    <cite>Brian B</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <!-- Hidden reviews — revealed by JS -->
+                        <li class="review-card review-card--hidden">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>At my appointment I was kept informed really well by the man on
+                                    reception — very friendly and relaxed. I then went in and had an
+                                    examination and wax removed; absolutely painless, just a weird
+                                    sensation. A very friendly, relaxed lady who made me feel comfortable,
+                                    with lots of advice but also listened to my views on moving forward.
+                                    Good experience and I would highly recommend them.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Lynne C</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card review-card--hidden">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Fantastic service — like visiting an old friend. Made me feel
+                                    welcomed. I would fully recommend. Came away with lots of information
+                                    too. Thank you everyone.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Janice A</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card review-card--hidden">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Fantastic service — friendly and professional throughout whilst
+                                    dealing with my Dad who had terrible ears and dementia. Thank you.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Edward D</cite>
+                                    <span class="review-card__source">via Fresha</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card review-card--hidden">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Very straightforward — a strange feeling but not at all unpleasant.
+                                    Lynda was very friendly and explained everything. It certainly worked
+                                    and had no after effects. Thank you.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Valerie</cite>
+                                    <span class="review-card__source">via Google</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card review-card--hidden">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Staff friendly and helpful. Treatment carried out professionally.
+                                    Great value. Would recommend to anyone.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Alan</cite>
+                                    <span class="review-card__source">via Google</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                        <li class="review-card review-card--hidden">
+                            <div class="review-card__stars" aria-label="5 stars out of 5">
+                                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <blockquote class="review-card__text">
+                                <p>Jackie is a very nice person and extremely good with the customers.
+                                    I liked this service and will be going back. It&rsquo;s a painless
+                                    procedure and I certainly can hear a bit better — I feel as if I was
+                                    running around with bunged up ears for a long time and the
+                                    microsuction certainly sorted that. Well done Jackie, and thank you.</p>
+                                <footer class="review-card__cite">
+                                    <cite>Donald</cite>
+                                    <span class="review-card__source">via Google</span>
+                                </footer>
+                            </blockquote>
+                        </li>
+
+                    </ul>
+
+                    <div class="reviews-grid__more">
+                        <button class="btn btn--outline" id="reviews-show-more"
+                            aria-expanded="false">
+                            Show More Reviews
+                        </button>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -640,11 +854,11 @@ require_once 'includes/header.php';
                         </dt>
                         <dd class="faq-item__answer" id="faq-4-answer" hidden>
                             <div class="faq-item__answer-inner">
-                                <p>Yes. We offer same-day appointments subject to availability, and
-                                    we run a pop-up clinic every other Saturday from 08:00 to 12:00.
-                                    Weekend appointments are particularly popular for earwax removal and
-                                    wellness consultations, so we recommend booking in advance where
-                                    possible to secure your preferred slot.</p>
+                                <p>Yes. We offer same-day appointments subject to availability. Our
+                                    clinic runs every Saturday from 08:00 to 12:00 and every Thursday
+                                    from 14:00 to 18:00. Saturday morning appointments are particularly
+                                    popular for earwax removal and wellness consultations, so we recommend
+                                    booking in advance where possible to secure your preferred slot.</p>
                             </div>
                         </dd>
                     </div>
@@ -819,7 +1033,7 @@ require_once 'includes/header.php';
                     <div class="location-band__clinic">
                         <h3 class="location-band__clinic-name">Main Clinic — Southampton</h3>
                         <address class="location-band__address">
-                            <p>Woolston, Southampton<br>SO19 4AA</p>
+                            <p>Bitterne, Southampton<br>SO19 4AA</p>
                         </address>
                         <ul class="location-band__meta">
                             <li>
@@ -832,7 +1046,7 @@ require_once 'includes/header.php';
                                     <line x1="8" y1="2" x2="8" y2="6" />
                                     <line x1="3" y1="10" x2="21" y2="10" />
                                 </svg>
-                                <span>Pop-up clinic: every other Saturday, 08:00&ndash;12:00</span>
+                                <span>Clinic: every Saturday 08:00&ndash;12:00 &amp; every Thursday 14:00&ndash;18:00</span>
                             </li>
                             <li>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
@@ -902,17 +1116,13 @@ require_once 'includes/header.php';
                 </div>
                 <!-- Map -->
                 <div class="location-band__map">
-                    <a href="https://maps.google.com/?q=SO19+4AA"
-                        target="_blank"
-                        rel="noopener"
-                        aria-label="View CoreMedica Wellness Group on Google Maps (opens in new tab)">
-                        <img
-                            src="https://maps.googleapis.com/maps/api/staticmap?center=SO19+4AA&zoom=15&size=600x750&scale=2&markers=color:0x3a7c8c%7Clabel:C%7CSO19+4AA&style=feature:poi%7Celement:labels%7Cvisibility:off&style=feature:transit%7Cvisibility:off&style=feature:road%7Celement:geometry%7Ccolor:0xffffff&style=feature:road.arterial%7Celement:geometry%7Ccolor:0xe8e8e8&style=feature:water%7Celement:geometry%7Ccolor:0xc8dde4&style=feature:landscape%7Celement:geometry%7Ccolor:0xf4f4f4&key=AIzaSyA3KE43oJuxVz4WrCtnYlA9dJaj65X4AOQ"
-                            alt=" Map showing CoreMedica Wellness Group clinic location in Woolston, Southampton SO19 4AA"
-                            width="600"
-                            height="750"
-                            loading="lazy">
-                    </a>
+                    <iframe
+                        title="CoreMedica Wellness Group clinic location"
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJj98pnWdxdEgRYU9nT0gPPQ4&zoom=15&key=AIzaSyA3KE43oJuxVz4WrCtnYlA9dJaj65X4AOQ"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -944,11 +1154,18 @@ require_once 'includes/header.php';
                 "Havant", "Romsey"
             ],
             "openingHoursSpecification": [{
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": "Saturday",
-                "opens": "08:00",
-                "closes": "12:00"
-            }],
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Saturday",
+                    "opens": "08:00",
+                    "closes": "12:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Thursday",
+                    "opens": "14:00",
+                    "closes": "18:00"
+                }
+            ],
             "medicalSpecialty": [
                 "Earwax Removal",
                 "Wellness Consultations",
