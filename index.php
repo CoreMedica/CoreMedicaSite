@@ -1116,13 +1116,7 @@ require_once 'includes/header.php';
                 </div>
                 <!-- Map -->
                 <div class="location-band__map">
-                    <iframe
-                        title="CoreMedica Wellness Group clinic location"
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJj98pnWdxdEgRYU9nT0gPPQ4&zoom=15&key=AIzaSyA3KE43oJuxVz4WrCtnYlA9dJaj65X4AOQ"
-                        allowfullscreen
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <?php require_once 'includes/mappin.php'; ?>
                 </div>
             </div>
         </div>
