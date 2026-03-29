@@ -54,3 +54,16 @@
         background-color: rgba($color-text-light, 0.1);
     }
 }
+
+.btn--outline-light {
+  background-color: transparent;
+  border-color: rgba(244, 244, 244, 0.5);
+  color: $color-text-light;
+
+  &:hover,
+  &:focus-visible {
+    background-color: rgba(244, 244, 244, 0.1);
+    border-color: $color-text-light;
+    color: $color-text-light;
+  }
+}

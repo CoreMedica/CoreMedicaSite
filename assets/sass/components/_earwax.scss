@@ -526,10 +526,9 @@
 // ── BOOKING / MAP CTA ────────────────────────
 
 .svc-booking {
-  background-color: $color-white;
+  background-color: $color-header-bg;  // was $color-white
   padding: $space-3xl 0;
 
-  // Two-column: details + map (Southampton)
   &__inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -541,7 +540,6 @@
     }
   }
 
-  // Single-column centred: no clinic address (Portsmouth)
   &__inner--no-map {
     grid-template-columns: 1fr;
     max-width: 640px;
@@ -557,7 +555,7 @@
     font-family: $font-heading;
     font-weight: $font-weight-heading;
     font-size: 2rem;
-    color: $color-text-dark;
+    color: $color-text-light;          // was $color-text-dark
     margin-bottom: $space-md;
 
     @include respond-to(mobile) { font-size: 1.625rem; }
@@ -566,7 +564,7 @@
   &__text {
     font-size: 0.9375rem;
     line-height: 1.8;
-    color: $color-text-dark;
+    color: rgba(244, 244, 244, 0.75);  // was $color-text-dark
     margin-bottom: $space-xl;
   }
 
@@ -583,7 +581,7 @@
       gap: $space-sm;
       font-size: 0.9rem;
       line-height: 1.5;
-      color: $color-text-dark;
+      color: rgba(244, 244, 244, 0.75); // was $color-text-dark
     }
 
     svg {
@@ -595,13 +593,13 @@
     }
 
     a {
-      color: $color-teal;
+      color: $color-gold;               // was $color-teal — gold reads better on dark
       text-decoration: none;
 
       &:hover,
       &:focus-visible {
         text-decoration: underline;
-        color: $color-gold;
+        color: $color-text-light;
       }
     }
   }
@@ -614,7 +612,7 @@
   &__map {
     border-radius: 8px;
     overflow: hidden;
-    border: 1px solid $color-border-light;
+    border: 1px solid rgba(255, 255, 255, 0.1); // was $color-border-light
     aspect-ratio: 4 / 3;
     position: relative;
 
