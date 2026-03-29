@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /CoreMedicaSite/
+RewriteBase /
 
 # Remove trailing slashes
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -9,6 +9,11 @@ RewriteRule ^(.*)/$ /$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# Pretty URLs — /services/* → content/*.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^services/([^/]+)/?$ content/$1.php [L]
 
 # Pretty URLs — two levels (/services/earwax-removal)
 RewriteCond %{REQUEST_FILENAME} !-f

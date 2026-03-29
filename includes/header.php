@@ -91,9 +91,9 @@
                                         <p class="mega-menu__title">Earwax Removal</p>
                                         <p class="mega-menu__desc">Fast, gentle earwax removal with a clear explanation of what's right for you. Clinic and home visit options available.</p>
                                         <div class="mega-menu__links">
-                                            <a href="/earwax-removal/" class="mega-menu__link">Earwax Removal (Southampton)</a>
-                                            <a href="/home-visits/southampton/" class="mega-menu__link">Home Visits (Southampton)</a>
-                                            <a href="/home-visits/portsmouth/" class="mega-menu__link">Home Visits (Portsmouth)</a>
+                                            <a href="/services/earwax-removal" class="mega-menu__link">Earwax Removal</a>
+                                            <a href="/services/earwax-removal-southampton" class="mega-menu__link">Earwax Removal - Southampton</a>
+                                            <a href="/services/earwax-removal-portsmouth" class="mega-menu__link">Earwax Removal - Portsmouth</a>
                                         </div>
                                     </div>
 
@@ -145,7 +145,7 @@
                                         <p class="mega-menu__title">Wellness Consultations</p>
                                         <p class="mega-menu__desc">Personalised support for energy, immunity and wellbeing — including Vitamin D and B12 guidance based on your needs.</p>
                                         <div class="mega-menu__links">
-                                            <a href="/wellness/" class="mega-menu__link">Wellness Services</a>
+                                            <a href="/services/wellness" class="mega-menu__link">Wellness Services</a>
                                         </div>
                                     </div>
 
@@ -198,7 +198,7 @@
                                         <p class="mega-menu__title">Hayfever &amp; Allergy</p>
                                         <p class="mega-menu__desc">Sneezing, itchy eyes, blocked nose? We'll help you get on top of hayfever with a friendly consultation and tailored options.</p>
                                         <div class="mega-menu__links">
-                                            <a href="/hayfever-allergy/" class="mega-menu__link">Hayfever Consultation</a>
+                                            <a href="/services/hayfever-allergy" class="mega-menu__link">Hayfever Consultation</a>
                                         </div>
                                     </div>
 
@@ -213,7 +213,7 @@
                                         <p class="mega-menu__title">Weight Management</p>
                                         <p class="mega-menu__desc">Medically supervised weight management with a plan that fits your life and regular check-ins to keep you on track.</p>
                                         <div class="mega-menu__links">
-                                            <a href="/weight-management/" class="mega-menu__link">Medically Supervised Weight-Loss</a>
+                                            <a href="/services/weight-management" class="mega-menu__link">Medically Supervised Weight-Loss</a>
                                         </div>
                                     </div>
 

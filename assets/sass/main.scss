@@ -6,7 +6,7 @@
 
 // 1. Abstracts — variables and tools first (no CSS output)
 @use 'abstracts/variables' as *;
-@use 'abstracts/mixins'    as *;
+@use 'abstracts/mixins' as *;
 
 // 2. Base — reset and global typography
 @use 'base/reset';
@@ -17,8 +17,15 @@
 @use 'layout/header';
 @use 'layout/footer';
 
-// 4. Components — UI elements
+// 4. Components — shared UI elements (page-agnostic)
 @use 'components/nav';
 @use 'components/buttons';
 @use 'components/utilities';
+@use 'components/section-header';
+@use 'components/breadcrumb';
+@use 'components/review-card';
+@use 'components/faq';
+
+// 5. Page-specific styles
 @use 'components/homepage';
+@use 'components/earwax';

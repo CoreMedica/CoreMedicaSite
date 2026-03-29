@@ -23,4 +23,4 @@
 .mt-2xl  { margin-top: $space-2xl; }
 
 // Accessible visually-hidden
-.sr-only  { @include visually-hidden; }
+.sr-only, .visually-hidden  { @include visually-hidden; }
