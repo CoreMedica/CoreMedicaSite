@@ -400,14 +400,20 @@
 
     @include respond-to(mobile) { font-size: 1.625rem; }
   }
+  &__text {
+    p {
+      font-size: 0.9375rem;
+      line-height: 1.8;
+      color: $color-text-dark;
+      margin-bottom: $space-md;
 
-  p {
-    font-size: 0.9375rem;
-    line-height: 1.8;
-    color: $color-text-dark;
-    margin-bottom: $space-md;
+      &:last-of-type { margin-bottom: $space-xl; }
+    }
+  }
 
-    &:last-of-type { margin-bottom: $space-xl; }
+  &__content {
+    display: flex;
+    flex-direction: column;
   }
 
   &__stats {
@@ -458,7 +464,7 @@
   }
 }
 
-.svc-why__text {
+.svc-why__text--light {
   & p {
     color: $color-text-light;
   }

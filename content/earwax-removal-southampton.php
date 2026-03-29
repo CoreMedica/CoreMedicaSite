@@ -327,31 +327,33 @@ require_once '../includes/header.php';
         <div class="container">
             <div class="svc-why__inner">
 
-                <div class="svc-why__text">
+                <div class="svc-why__content">
                     <p class="svc-why__eyebrow">Why CoreMedica</p>
                     <h2 class="svc-why__heading" id="stn-why-heading">
                         Southampton&rsquo;s Answer to the NHS Earwax Gap
                     </h2>
-                    <p>
-                        When Southampton GP practices withdrew earwax removal in line with NHS England
-                        guidance, thousands of local patients were left without a straightforward route
-                        to care. CoreMedica was founded specifically to fill that gap &mdash; providing
-                        clinician-led earwax removal with no waiting list and no referral required.
-                    </p>
-                    <p>
-                        Our Bitterne clinic is run by <strong>Jacqueline Allen</strong>, Advanced
-                        Clinical Practitioner, and <strong>Lynda Morgan</strong>, Advanced Nurse
-                        Practitioner. Both bring extensive clinical experience and take time to
-                        properly assess each patient before any procedure begins. You will never be
-                        rushed, and you will always know exactly what is happening and why.
-                    </p>
-                    <p>
-                        For Southampton patients who find it difficult to travel &mdash; including
-                        older patients, those with mobility issues, or hearing aid users who need
-                        regular maintenance &mdash; our home visit service covers all SO14&ndash;SO19
-                        and SO31 postcodes with no area surcharge.
-                    </p>
-                    <a href="/about" class="btn btn--outline">Meet Our Practitioners</a>
+                    <div class="svc-why__text">
+                        <p>
+                            When Southampton GP practices withdrew earwax removal in line with NHS England
+                            guidance, thousands of local patients were left without a straightforward route
+                            to care. CoreMedica was founded specifically to fill that gap &mdash; providing
+                            clinician-led earwax removal with no waiting list and no referral required.
+                        </p>
+                        <p>
+                            Our Bitterne clinic is run by <strong>Jacqueline Allen</strong>, Advanced
+                            Clinical Practitioner, and <strong>Lynda Morgan</strong>, Advanced Nurse
+                            Practitioner. Both bring extensive clinical experience and take time to
+                            properly assess each patient before any procedure begins. You will never be
+                            rushed, and you will always know exactly what is happening and why.
+                        </p>
+                        <p>
+                            For Southampton patients who find it difficult to travel &mdash; including
+                            older patients, those with mobility issues, or hearing aid users who need
+                            regular maintenance &mdash; our home visit service covers all SO14&ndash;SO19
+                            and SO31 postcodes with no area surcharge.
+                        </p>
+                        <a href="/about" class="btn btn--outline">Meet Our Practitioners</a>
+                    </div>
                 </div>
 
                 <div class="svc-why__stats">
@@ -693,13 +695,7 @@ require_once '../includes/header.php';
                 </div>
 
                 <div class="svc-booking__map">
-                    <iframe
-                        title="CoreMedica Wellness Group — 4 Chessel Avenue, Bitterne, Southampton"
-                        src="https://www.google.com/maps?q=4+Chessel+Avenue,+Bitterne,+Southampton,+SO19+4AA&output=embed"
-                        allowfullscreen
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <?php require '../includes/mappin.php'; ?>
                 </div>
 
             </div>
