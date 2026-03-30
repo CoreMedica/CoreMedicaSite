@@ -181,7 +181,7 @@ require_once '../includes/header.php';
             <div class="svc-why__inner">
 
                 <div class="svc-why__text">
-                    <p>
+                    <p class="light">
                         NHS England guidance issued in 2019 reclassified earwax removal as a low-priority
                         procedure, resulting in the majority of GP practices in Southampton and Portsmouth
                         withdrawing the service entirely. Patients were told to try over-the-counter drops,
@@ -189,7 +189,7 @@ require_once '../includes/header.php';
                         hearing aid users and older patients &mdash; this had a significant impact on
                         daily life.
                     </p>
-                    <p>
+                    <p class="light">
                         CoreMedica Wellness Group was established to close that gap. We provide fast,
                         accessible, clinician-led earwax removal as a private service with no referral
                         required and a straightforward booking process. Our practitioners,
@@ -197,7 +197,7 @@ require_once '../includes/header.php';
                         <strong>Lynda Morgan</strong> (Advanced Nurse Practitioner), bring extensive
                         clinical experience to every appointment.
                     </p>
-                    <p>
+                    <p class="light">
                         Every patient is assessed before any procedure begins. The right method is
                         chosen for your specific situation &mdash; not just the fastest option. That
                         clinical rigour is what sets us apart from a drop-in wax removal kiosk.

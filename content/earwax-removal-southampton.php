@@ -44,7 +44,10 @@ require_once '../includes/header.php';
                         target="_blank" rel="noopener">
                         Book a Clinic Appointment
                     </a>
-                    <a href="mailto:reception@coremedica.co.uk" class="btn btn--ghost">
+                    <a href="#"
+                        class="btn btn--ghost"
+                        data-modal-open="home-visit-modal"
+                        role="button">
                         Request a Home Visit
                     </a>
                 </div>
@@ -225,8 +228,11 @@ require_once '../includes/header.php';
                         Full professional kit. Examination only &pound;30 if no wax is found.
                         No area surcharge.
                     </p>
-                    <a href="mailto:reception@coremedica.co.uk" class="btn btn--outline">
-                        Request Home Visit
+                    <a href="#"
+                        class="btn btn--outline"
+                        data-modal-open="home-visit-modal"
+                        role="button">
+                        Request a Home Visit
                     </a>
                 </div>
 
@@ -688,8 +694,11 @@ require_once '../includes/header.php';
                             target="_blank" rel="noopener">
                             Book Online
                         </a>
-                        <a href="mailto:reception@coremedica.co.uk" class="btn btn--outline-light">
-                            Request Home Visit
+                        <a href="#"
+                            class="btn btn--ghost"
+                            data-modal-open="home-visit-modal"
+                            role="button">
+                            Request a Home Visit
                         </a>
                     </div>
                 </div>
@@ -805,7 +814,7 @@ require_once '../includes/header.php';
             ]
         }
     </script>
-
+    <?php require_once '../includes/home-visit-modal.php'; ?>
 </main>
 
 <?php require_once '../includes/footer.php'; ?>

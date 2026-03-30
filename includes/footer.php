@@ -58,7 +58,7 @@
 </footer>
 
 <!-- JS — swap to main.min.js for production -->
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/main.bundle.js"></script>
 </body>
 
 </html>

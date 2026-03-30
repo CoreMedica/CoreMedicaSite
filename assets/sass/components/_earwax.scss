@@ -408,6 +408,10 @@
       margin-bottom: $space-md;
 
       &:last-of-type { margin-bottom: $space-xl; }
+
+      &.light {
+        color: $color-text-light;
+      }
     }
   }
 
@@ -524,9 +528,9 @@
 // ── FAQ ──────────────────────────────────────
 // .faq-section, .faq-list, .faq-item live in _faq.scss
 
-.svc-faq {
+//.svc-faq {
   // Uses .faq-section--light modifier for footer-light background
-}
+//}
 
 
 // ── BOOKING / MAP CTA ────────────────────────

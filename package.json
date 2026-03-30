@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass:watch": "sass assets/sass/main.scss assets/css/main.css --watch --source-map",
-    "sass:build": "sass assets/sass/main.scss assets/css/main.min.css --style=compressed --no-source-map",
-    "js:build": "terser assets/js/main.js -o assets/js/main.min.js --compress --mangle",
+    "js:build": "cat assets/js/main.js assets/js/modal.js | terser --compress --mangle -o assets/js/main.min.js",
+    "js:dev": "cat assets/js/main.js assets/js/modal.js > assets/js/main.bundle.js",
+    "sass:watch": "sass --watch assets/sass/main.scss:assets/css/main.css",
+    "sass:build": "sass --style=compressed assets/sass/main.scss:assets/css/main.min.css",
     "build": "npm run sass:build && npm run js:build",
     "watch": "npm run sass:watch"
   },
