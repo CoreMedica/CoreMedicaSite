@@ -19,6 +19,7 @@ RewriteRule ^services/([^/]+)/?$ content/$1.php [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)/([^/]+)/?$ $1/$2.php [L]
+RewriteRule ^services/hayfever-allergy/?$  content/hayfever-allergy.php  [L]
 
 # Gzip compression
 <IfModule mod_deflate.c>

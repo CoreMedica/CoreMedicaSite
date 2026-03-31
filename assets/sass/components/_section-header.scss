@@ -18,6 +18,10 @@
     font-size: clamp(1.6rem, 3vw, 2.2rem);
     color: $color-text-dark;
     margin-bottom: 0.75rem;
+
+    &--light {
+      color: $color-text-light;
+    }
   }
 
   &__lead {
