@@ -38,27 +38,19 @@ require_once '../includes/header.php';
 
                 <ul class="svc-hero__trust-list" aria-label="Key service facts">
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         No referral required
                     </li>
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         Clinic &amp; home visits available
                     </li>
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         Same-day appointments available
                     </li>
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         Advanced Practitioners
                     </li>
                 </ul>
@@ -97,26 +89,20 @@ require_once '../includes/header.php';
                         </p>
                         <ul class="location-card__features">
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                                <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                                 Thursdays 14:00&ndash;18:00 &amp; Saturdays 08:00&ndash;12:00
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                                <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                                 Microsuction &amp; ear irrigation
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                                <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                                 Clinic from &pound;60 &bull; Home visits from &pound;80
                             </li>
                         </ul>
                         <a href="/services/earwax-removal-southampton" class="btn btn--primary">
-                            Southampton Appointments &rarr;
+                            Southampton Appointments <i class="fa-sharp fa-thin fa-arrow-right" aria-hidden="true" focusable="false"></i>
                         </a>
                     </div>
                 </article>
@@ -134,26 +120,20 @@ require_once '../includes/header.php';
                         </p>
                         <ul class="location-card__features">
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                                <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                                 Home visits &mdash; we come to you
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                                <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                                 Microsuction &mdash; same standard as clinic
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                                <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                                 From &pound;80 &bull; Examination only &pound;30
                             </li>
                         </ul>
                         <a href="/services/earwax-removal-portsmouth" class="btn btn--primary">
-                            Portsmouth Home Visits &rarr;
+                            Portsmouth Home Visits <i class="fa-sharp fa-thin fa-arrow-right" aria-hidden="true" focusable="false"></i>
                         </a>
                     </div>
                 </article>
@@ -445,18 +425,11 @@ require_once '../includes/header.php';
 
                 <ul class="svc-booking__meta">
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                            <line x1="16" y1="2" x2="16" y2="6" />
-                            <line x1="8" y1="2" x2="8" y2="6" />
-                            <line x1="3" y1="10" x2="21" y2="10" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-calendar" aria-hidden="true" focusable="false"></i>
                         <span>Thursdays 14:00&ndash;18:00 &amp; Saturdays 08:00&ndash;12:00 (Southampton clinic)</span>
                     </li>
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.23h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.88a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-phone" aria-hidden="true" focusable="false"></i>
                         <span>
                             <a href="tel:07777100716">07777&nbsp;100716</a> &nbsp;&mdash;&nbsp;
                             <a href="mailto:reception@coremedica.co.uk">reception@coremedica.co.uk</a>
