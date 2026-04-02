@@ -69,7 +69,7 @@
     color: rgba(244,244,244,0.7);
   }
 
-  &__trust-icon {
+  &__trust-icon, .fa-sharp {
     width: 18px;
     height: 18px;
     color: $color-teal;
@@ -501,7 +501,7 @@
   font-size: 0.875rem;
   color: $color-text-dark;
 
-  svg {
+  svg, .fa-sharp {
     width: 15px;
     height: 15px;
     color: $color-teal;
@@ -598,7 +598,7 @@
       color: rgba(244, 244, 244, 0.75); // was $color-text-dark
     }
 
-    svg {
+    svg, .fa-sharp {
       width: 18px;
       height: 18px;
       color: $color-teal;

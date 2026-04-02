@@ -52,27 +52,19 @@ require_once '../includes/header.php';
 
                 <ul class="svc-hero__trust-list" aria-label="Key facts">
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         Home visits across PO1&ndash;PO6
                     </li>
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         24 hours&rsquo; notice required
                     </li>
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         No area surcharge &mdash; from &pound;80
                     </li>
                     <li class="svc-hero__trust-item">
-                        <svg class="svc-hero__trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-circle-check" aria-hidden="true" focusable="false"></i>
                         No referral required
                     </li>
                 </ul>
@@ -102,11 +94,7 @@ require_once '../includes/header.php';
 
                 <article class="procedure-card" aria-labelledby="prt-micro-heading">
                     <div class="procedure-card__icon-wrap" aria-hidden="true">
-                        <svg class="procedure-card__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false">
-                            <path d="M12 2a10 10 0 1 0 10 10" />
-                            <path d="M12 6v6l4 2" />
-                            <path d="M20 2v6h-6" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-house procedure-card__icon icon--xxxl" aria-hidden="true" focusable="false"></i>
                     </div>
                     <div class="procedure-card__body">
                         <p class="procedure-card__eyebrow">Gold-Standard Method</p>
@@ -128,10 +116,7 @@ require_once '../includes/header.php';
 
                 <article class="procedure-card" aria-labelledby="prt-visit-heading">
                     <div class="procedure-card__icon-wrap" aria-hidden="true">
-                        <svg class="procedure-card__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                            <polyline points="9 22 9 12 15 12 15 22" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-question procedure-card__icon icon--xxxl" aria-hidden="true" focusable="false"></i>
                     </div>
                     <div class="procedure-card__body">
                         <p class="procedure-card__eyebrow">Home Visit Service</p>
@@ -397,10 +382,7 @@ require_once '../includes/header.php';
                 ];
                 foreach ($areas as $area) : ?>
                     <li class="area-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                            <circle cx="12" cy="10" r="3" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-location-dot" aria-hidden="true" focusable="false"></i>
                         <span><strong><?= htmlspecialchars($area['code']) ?></strong> &mdash; <?= htmlspecialchars($area['name']) ?></span>
                     </li>
                 <?php endforeach; ?>
@@ -644,23 +626,15 @@ require_once '../includes/header.php';
 
                 <ul class="svc-booking__meta">
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                            <circle cx="12" cy="12" r="10" />
-                            <polyline points="12 6 12 12 16 14" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-clock"></i>
                         <span>24 hours&rsquo; notice required &mdash; bookings available 7 days</span>
                     </li>
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                            <circle cx="12" cy="10" r="3" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-location-dot"></i>
                         <span>Covering PO1&ndash;PO6 &mdash; Portsmouth, Southsea, Cosham &amp; surrounding areas</span>
                     </li>
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.23h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.88a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z" />
-                        </svg>
+                        <i class="fa-sharp fa-thin fa-phone"></i>
                         <span>
                             <a href="tel:07777100716">07777&nbsp;100716</a>
                             &nbsp;&mdash;&nbsp;
