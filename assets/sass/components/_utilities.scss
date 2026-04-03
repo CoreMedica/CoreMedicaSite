@@ -43,3 +43,10 @@
 .icon--xl  { font-size: 2rem; }
 .icon--xxl { font-size: 2.5rem; }
 .icon--xxxl { font-size: 3rem; }
+
+
+// Spacing Utilities (margin-bottom scale)
+.mb--sm   { margin-bottom: $space-sm; }
+.mb--md   { margin-bottom: $space-md; }
+.mb--lg   { margin-bottom: $space-lg; }
+.mb--xl   { margin-bottom: $space-xl; }

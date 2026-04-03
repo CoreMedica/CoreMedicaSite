@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = 'Earwax Removal Southampton | Clinic &amp; Home Visits | CoreMedica';
 $pageDescription = 'Professional earwax removal in Southampton by microsuction and ear irrigation. Clinic at Bitterne SO19 4AA — Thursdays and Saturdays. Home visits across SO14–SO19 and SO31. From £60. No referral needed.';
-$pageCanonical   = 'https://www.coremedica.co.uk/services/earwax-removal-southampton';
+$pageCanonical   = 'https://coremedica.co.uk/earwax-removal-southampton';
 $activePage      = 'services';
 require_once '../includes/header.php';
 ?>

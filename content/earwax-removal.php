@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = 'Earwax Removal Southampton &amp; Portsmouth | CoreMedica Wellness Group';
 $pageDescription = 'Professional earwax removal by microsuction and ear irrigation. Clinic appointments in Southampton and home visits across Southampton and Portsmouth. No referral needed. From £60.';
-$pageCanonical   = 'https://www.coremedica.co.uk/services/earwax-removal';
+$pageCanonical   = 'https://coremedica.co.uk/earwax-removal';
 $activePage      = 'services';
 require_once '../includes/header.php';
 ?>

@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = 'Earwax Removal Portsmouth | Home Visits | CoreMedica Wellness Group';
 $pageDescription = 'Professional earwax removal by microsuction home visits across Portsmouth PO1–PO6. Southsea, Cosham, Fratton and surrounding areas. From £80. 24 hours notice. No referral needed.';
-$pageCanonical   = 'https://www.coremedica.co.uk/services/earwax-removal-portsmouth';
+$pageCanonical   = 'https://coremedica.co.uk/earwax-removal-portsmouth';
 $activePage      = 'services';
 require_once '../includes/header.php';
 ?>

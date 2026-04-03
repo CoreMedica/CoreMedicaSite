@@ -1,7 +1,7 @@
 <?php
 $page_title       = 'Hayfever &amp; Allergy Treatment in Southampton | CoreMedica';
 $meta_description = 'Clinician-led hayfever and allergy consultations in Southampton. Full clinical assessment, treatment options, and home visits across SO postcodes. No GP referral required.';
-$canonical_url    = 'https://coremedica.co.uk/services/hayfever-allergy-southampton/';
+$canonical_url    = 'https://coremedica.co.uk/seasonal-allergy-consultations';
 $body_class       = 'page-hayfever';
 
 include '../includes/header.php';
@@ -51,7 +51,7 @@ include '../includes/header.php';
                 <a href="https://coremedica.cliniko.com/bookings" class="btn btn--primary" target="_blank" rel="noopener">
                     Book a Clinic Appointment
                 </a>
-                <button class="btn btn--secondary" data-modal-open="home-visit-modal" type="button">
+                <button class="btn btn--outline" data-modal-open="home-visit-modal" type="button">
                     Request a Home Visit
                 </button>
             </div>
@@ -311,7 +311,7 @@ include '../includes/header.php';
                         SO postcodes and SO31 — with no area surcharge.
                     </p>
                 </div>
-                <a href="/about/" class="btn btn--secondary">Meet Our Practitioners</a>
+                <a href="/about/" class="btn btn--outline">Meet Our Practitioners</a>
             </div>
 
             <div class="svc-why__stats" aria-label="Key statistics">

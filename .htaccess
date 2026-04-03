@@ -5,22 +5,26 @@ RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)/$ /$1 [L,R=301]
 
-# Pretty URLs — single level (/services)
+# Legacy redirects — old URLs 301 to new clean URLs
+RewriteRule ^seasonal-allergy-consultations/?$   /hayfever-allergy   [L,R=301]
+RewriteRule ^wellness-consultation-clinic/?$      /wellness-consultations   [L,R=301]
+RewriteRule ^services/([^/]+)/?$                  /$1   [L,R=301]
+
+# Pretty URLs — single level → content/*.php (checked first)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/content/$1.php -f
+RewriteRule ^([^/]+)/?$ content/$1.php [L]
+
+# Pretty URLs — single level → root *.php (fallback)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)/?$ $1.php [L]
 
-# Pretty URLs — /services/* → content/*.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^services/([^/]+)/?$ content/$1.php [L]
-
-# Pretty URLs — two levels (/services/earwax-removal)
+# Pretty URLs — two levels → directory/file.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+)/([^/]+)/?$ $1/$2.php [L]
-RewriteRule ^services/hayfever-allergy/?$  content/hayfever-allergy.php  [L]
-RewriteRule ^services/wellness-consultations/?$ content/wellness-consultations.php [L]
 
 # Gzip compression
 <IfModule mod_deflate.c>

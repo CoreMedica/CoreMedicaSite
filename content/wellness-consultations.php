@@ -2,8 +2,8 @@
 $pageTitle       = 'Wellness Consultations Southampton & Portsmouth | CoreMedica';
 $pageDescription = 'Clinician-led wellness consultations in Southampton and Portsmouth. Fatigue, low energy, immunity, and vitamin injection therapy — B12 and Vitamin D. Clinic and home visits. No GP referral required.';
 $pageKeywords    = 'wellness consultation Southampton, wellness consultation Portsmouth, vitamin B12 injection Southampton, vitamin D injection Southampton, fatigue consultation, private wellness clinic, CoreMedica';
-$canonicalUrl    = 'https://www.coremedica.co.uk/services/wellness-consultations/';
-$ogImage         = 'https://www.coremedica.co.uk/assets/images/og-wellness.jpg';
+$canonicalUrl    = 'https://coremedica.co.uk/wellness-consultation-clinic';
+$ogImage         = 'https://coremedica.co.uk/assets/images/og-wellness.jpg';
 $bodyClass       = 'page-wellness';
 
 include '../includes/header.php';
@@ -15,16 +15,24 @@ include '../includes/header.php';
          HERO
     ═══════════════════════════════════════════ -->
     <section class="svc-hero">
-        <div class="svc-hero__inner container">
-
+        <div class="container">
             <nav class="breadcrumb" aria-label="Breadcrumb">
-                <ol class="breadcrumb__list">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/services/">Services</a></li>
-                    <li aria-current="page">Wellness Consultations</li>
-                </ol>
-            </nav>
-
+            <ol class="breadcrumb__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/services/" itemprop="item"><span itemprop="name">Services</span></a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span aria-current="page" itemprop="name">Wellness Consultations</span>
+                    <meta itemprop="position" content="3" />
+                </li>
+            </ol>
+        </nav>
+        <div class="svc-hero__inner">
             <p class="svc-hero__eyebrow">
                 <i class="fa-sharp fa-thin fa-sun" aria-hidden="true"></i>
                 Wellness Consultations
@@ -73,9 +81,9 @@ include '../includes/header.php';
                     No GP referral required
                 </li>
             </ul>
-
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- ══════════════════════════════════════════
          PROCEDURES — Consultation Types
@@ -248,7 +256,7 @@ include '../includes/header.php';
     <section class="svc-expect">
         <div class="container">
 
-            <div class="section-header">
+            <div class="section-header section-header--light">
                 <h2 class="section-header__heading">What Happens at Your Appointment</h2>
                 <p class="section-header__lead">
                     Whether you attend the clinic or book a home visit, every appointment
@@ -342,9 +350,9 @@ include '../includes/header.php';
     <section class="svc-pricing">
         <div class="container">
 
-            <div class="section-header section-header--light">
-                <h2 class="section-header__heading section-header__heading--light">
-                    Transparent, Fixed Pricing
+            <div class="section-header">
+                <h2 class="section-header__heading">
+                    Transparent, Fixed Pricig
                 </h2>
                 <p class="section-header__lead">
                     You will always know the full cost before any treatment begins.
@@ -387,7 +395,7 @@ include '../includes/header.php';
                         injection therapy available on home visits where clinically indicated.
                         No area surcharge.
                     </p>
-                    <button class="btn btn--secondary" data-modal-open="home-visit-modal">
+                    <button class="btn btn--outline" data-modal-open="home-visit-modal">
                         Request a Home Visit
                     </button>
                 </div>
@@ -401,7 +409,7 @@ include '../includes/header.php';
          WHY COREMEDICA
     ═══════════════════════════════════════════ -->
     <section class="svc-why">
-        <div class="svc-why__inner container">
+        <div class="container">
 
             <p class="svc-why__eyebrow">Why CoreMedica</p>
             <h2 class="svc-why__heading">A Clinical Service, Not a Supplement Shop</h2>
@@ -427,7 +435,7 @@ include '../includes/header.php';
                         yours — secure, accurate, and available to share with your GP if you
                         choose to.
                     </p>
-                    <a href="/about/" class="btn btn--secondary">Meet Our Practitioners</a>
+                    <a href="/about/" class="btn btn--outline mb--md">Meet Our Practitioners</a>
                 </div>
 
                 <div class="svc-why__stats">
@@ -488,8 +496,8 @@ include '../includes/header.php';
             <div class="area-grid">
                 <?php foreach ($areas as $area) : ?>
                 <div class="area-item">
-                    <strong><?php echo htmlspecialchars($area['code']); ?></strong>
-                    &mdash; <?php echo htmlspecialchars($area['name']); ?>
+                    <i class="fa-sharp fa-thin fa-location-dot" aria-hidden="true" focusable="false"></i>
+                    <strong><?= htmlspecialchars($area['code']) ?></strong> <?= htmlspecialchars($area['name']) ?>
                 </div>
                 <?php endforeach; ?>
             </div>
@@ -517,7 +525,7 @@ include '../includes/header.php';
 
             <div class="reviews-grid reviews-grid--standalone">
 
-                <article class="review-card review-card--dark">
+                <article class="review-card">
                     <div class="review-card__stars" aria-label="5 stars">★★★★★</div>
                     <blockquote class="review-card__text">
                         Jacqueline was incredibly thorough — she actually listened to
@@ -531,7 +539,7 @@ include '../includes/header.php';
                     </cite>
                 </article>
 
-                <article class="review-card review-card--dark">
+                <article class="review-card">
                     <div class="review-card__stars" aria-label="5 stars">★★★★★</div>
                     <blockquote class="review-card__text">
                         Lynda was brilliant — very professional and knowledgeable. She took
@@ -544,7 +552,7 @@ include '../includes/header.php';
                     </cite>
                 </article>
 
-                <article class="review-card review-card--dark">
+                <article class="review-card">
                     <div class="review-card__stars" aria-label="5 stars">★★★★★</div>
                     <blockquote class="review-card__text">
                         I had been feeling exhausted for months and my GP just kept saying
@@ -763,7 +771,7 @@ include '../includes/header.php';
                        rel="noopener noreferrer">
                         Book Online
                     </a>
-                    <button class="btn btn--secondary" data-modal-open="home-visit-modal">
+                    <button class="btn btn--outline" data-modal-open="home-visit-modal">
                         Request a Home Visit
                     </button>
                 </div>
