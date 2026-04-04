@@ -1,0 +1,22 @@
+// ─────────────────────────────────────────────
+// WEIGHT LOSS MANAGEMENT PAGE (_weight-management.scss)
+// Used by: content/weight-loss-management.php
+// ─────────────────────────────────────────────
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+// ── Programme features ────────────────────────
+
+.wm-programme {
+    padding: $space-3xl 0;
+    background-color: $color-footer-light;
+}
+
+// ── Eligibility ───────────────────────────────
+
+.wm-eligibility {
+    padding: $space-3xl 0;
+    background-color: $color-header-bg;
+}
+

@@ -26,7 +26,7 @@
 @use 'components/utilities';
 @use 'components/hero';
 @use 'components/cards';
-@use 'compoenents/pricing';
+@use 'components/pricing';
 @use 'components/callouts';
 @use 'components/steps';
 @use 'components/cta-band';
@@ -36,8 +36,8 @@
 
 
 // 5. Page-specific styles
-@use 'components/homepage';
-@use 'components/earwax';
-@use 'components/hayfever';
-@use 'components/wellness';
-@use 'components/weight-management';
+@use 'pages/homepage';
+@use 'pages/earwax';
+@use 'pages/hayfever';
+@use 'pages/wellness';
+@use 'pages/weight-management';
