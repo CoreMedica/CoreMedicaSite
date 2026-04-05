@@ -1,0 +1,226 @@
+// ─────────────────────────────────────────────
+// SERVICES HUB PAGE
+// Used by: content/services.php
+// Purpose: page-level layout only, built on existing shared components
+// ─────────────────────────────────────────────
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.page-services {
+
+  // ── HERO POLISH ───────────────────────────
+
+  .svc-hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .svc-hero__inner {
+    max-width: 820px;
+  }
+
+  .svc-hero__subheading {
+    max-width: 720px;
+  }
+
+  .svc-hero__ctas {
+    .btn {
+      min-width: 200px;
+
+      @include respond-to(mobile) {
+        width: 100%;
+      }
+    }
+  }
+
+  .svc-hero__trust-list {
+    max-width: 760px;
+  }
+
+
+  // ── SERVICES OVERVIEW GRID ────────────────
+  // Existing component is 2-col.
+  // For this page only, make the 5-card layout read as 3 + 2 on desktop.
+
+  .services-section .service-cards {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    max-width: 1080px;
+    gap: $space-lg;
+  }
+
+  .services-section .service-card {
+    grid-column: span 2;
+    height: 100%;
+  }
+
+  .services-section .service-card:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .services-section .service-card:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+
+  .service-card__body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card__text {
+    margin-bottom: $space-md;
+  }
+
+  .service-card__features {
+    margin-bottom: $space-lg;
+  }
+
+  .service-card__link {
+    margin-top: auto;
+  }
+
+  @include respond-to(tablet) {
+    .services-section .service-cards {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 860px;
+    }
+
+    .services-section .service-card,
+    .services-section .service-card:nth-child(4),
+    .services-section .service-card:nth-child(5) {
+      grid-column: auto;
+    }
+  }
+
+  @include respond-to(mobile) {
+    .services-section .service-cards {
+      grid-template-columns: 1fr;
+      max-width: none;
+    }
+  }
+
+
+  // ── EXPANDED SERVICE CARDS ────────────────
+
+  .procedure-card[id] {
+    scroll-margin-top: calc(#{$header-height-desktop} + #{$space-xl});
+  }
+
+  .procedure-cards {
+    align-items: stretch;
+  }
+
+  .procedure-card {
+    height: 100%;
+  }
+
+  .procedure-card__body {
+    height: 100%;
+  }
+
+  .procedure-card__benefits {
+    margin-bottom: $space-xl;
+  }
+
+  .procedure-card .btn {
+    align-self: flex-start;
+    margin-top: auto;
+  }
+
+  // With 5 cards in a 2-col grid, centre the last one on desktop only
+  .procedure-cards > .procedure-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: 560px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include respond-to(tablet) {
+    .procedure-card[id] {
+      scroll-margin-top: calc(#{$header-height-mobile} + #{$space-xl});
+    }
+
+    .procedure-cards > .procedure-card:last-child:nth-child(odd) {
+      grid-column: auto;
+      max-width: none;
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+
+  // ── WHY CHOOSE US ─────────────────────────
+
+  .svc-why__inner {
+    grid-template-columns: minmax(0, 1fr) 360px;
+  }
+
+  .svc-why__stats {
+    align-self: start;
+  }
+
+  @include respond-to(tablet) {
+    .svc-why__inner {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  // ── REVIEWS ───────────────────────────────
+
+  .reviews-grid--standalone {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  // ── FAQ ───────────────────────────────────
+
+  .faq-grid {
+    max-width: 860px;
+  }
+
+
+  // ── BOOKING STRIP ─────────────────────────
+
+  .svc-booking__inner--no-map {
+    max-width: 720px;
+    text-align: center;
+  }
+
+  .svc-booking__text {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .svc-booking__meta {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .svc-booking__meta li {
+    justify-content: center;
+    text-align: left;
+  }
+
+  .svc-booking__ctas {
+    justify-content: center;
+  }
+
+  @include respond-to(mobile) {
+    .svc-booking__ctas {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .svc-booking__ctas .btn {
+      width: 100%;
+    }
+  }
+}
