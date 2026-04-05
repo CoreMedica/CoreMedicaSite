@@ -159,25 +159,7 @@ include '../includes/header.php';
                         </ul>
                         <a href="#service-allergy" class="service-card__link btn btn--outline">Learn More</a>
                     </div>
-                </li>
-
-                <li class="service-card">
-                    <div class="service-card__icon-wrap" aria-hidden="true">
-                        <i class="fa-sharp fa-thin fa-house-medical icon--xxl"></i>
-                    </div>
-                    <div class="service-card__body">
-                        <h3 class="service-card__heading">Home Visits</h3>
-                        <p class="service-card__text">
-                            Professional care delivered in the comfort of your own home across selected local areas.
-                        </p>
-                        <ul class="service-card__features">
-                            <li>Southampton &amp; Portsmouth coverage</li>
-                            <li>Ideal for limited mobility</li>
-                            <li>Convenient scheduling</li>
-                        </ul>
-                        <a href="#service-home-visits" class="service-card__link btn btn--outline">Learn More</a>
-                    </div>
-                </li>
+                </li>                
             </ul>
 
         </div>
@@ -285,31 +267,6 @@ include '../includes/header.php';
                             <li>Helpful for recurring seasonal symptoms</li>
                         </ul>
                         <a href="/hayfever-allergy" class="btn btn--primary">View Allergy Consultations</a>
-                    </div>
-                </article>
-
-                <article class="procedure-card" id="service-home-visits">
-                    <div class="procedure-card__icon-wrap">
-                        <i class="fa-sharp fa-thin fa-house-medical procedure-card__icon icon--xxxl" aria-hidden="true"></i>
-                    </div>
-                    <div class="procedure-card__body">
-                        <p class="procedure-card__eyebrow">Care at Home</p>
-                        <h3 class="procedure-card__heading">Home Visits</h3>
-                        <p class="procedure-card__text">
-                            For patients who prefer not to travel, our home visit service provides professional care
-                            in a familiar environment. This is especially useful for older patients, those with limited
-                            mobility, carers arranging support for a relative, or anyone who values added convenience.
-                        </p>
-                        <ul class="procedure-card__benefits mb--md">
-                            <li>Available across Southampton and Portsmouth coverage areas</li>
-                            <li>Ideal for elderly or mobility-limited patients</li>
-                            <li>Convenient for families and carers</li>
-                            <li>Delivered by the same professional CoreMedica team</li>
-                        </ul>
-                        <a href="#"
-                            class="btn btn--primary"
-                            data-modal-open="home-visit-modal"
-                            role="button">Request a Home Visit</a>
                     </div>
                 </article>
 

@@ -39,7 +39,7 @@ require_once '../includes/header.php';
                 </p>
 
                 <div class="svc-hero__ctas">
-                    <a href="https://coremedica.cliniko.com/bookings"
+                    <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799806171142431580&appointment_type_id[]=1799827803626021726#service"
                         class="btn btn--primary"
                         target="_blank" rel="noopener">
                         Book a Clinic Appointment
@@ -175,7 +175,7 @@ require_once '../includes/header.php';
                         Both ears examined and treated. Microsuction or ear irrigation &mdash;
                         method confirmed at assessment. No GP referral required.
                     </p>
-                    <a href="https://coremedica.cliniko.com/bookings"
+                    <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799806171142431580&appointment_type_id[]=1799827803626021726#service"
                         class="btn btn--primary"
                         target="_blank" rel="noopener">
                         Book Clinic Appointment
@@ -193,7 +193,7 @@ require_once '../includes/header.php';
                         If your ears are examined and no wax is present or removal is not appropriate,
                         you pay only for the clinical examination. Professional advice included.
                     </p>
-                    <a href="https://coremedica.cliniko.com/bookings"
+                    <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799806171142431580&appointment_type_id[]=1799827803626021726#service"
                         class="btn btn--outline"
                         target="_blank" rel="noopener">
                         Book Appointment
@@ -299,7 +299,7 @@ require_once '../includes/header.php';
             </ol>
 
             <div class="svc-expect__cta">
-                <a href="https://coremedica.cliniko.com/bookings"
+                <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799806171142431580&appointment_type_id[]=1799827803626021726#service"
                     class="btn btn--primary"
                     target="_blank" rel="noopener">
                     Book Your Appointment
@@ -660,7 +660,7 @@ require_once '../includes/header.php';
                     </ul>
 
                     <div class="svc-booking__ctas">
-                        <a href="https://coremedica.cliniko.com/bookings"
+                        <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799806171142431580&appointment_type_id[]=1799827803626021726#service"
                             class="btn btn--primary"
                             target="_blank" rel="noopener">
                             Book Online

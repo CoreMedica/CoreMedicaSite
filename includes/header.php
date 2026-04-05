@@ -142,7 +142,7 @@
             </nav>
 
             <div class="site-header__cta">
-                <a href="/book/" class="site-header__cta-link">Book Online</a>
+                <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?business_id=1799806171821907984" target="_blank" class="site-header__cta-link">Book Online</a>
             </div>
 
             <button class="nav-toggle"
