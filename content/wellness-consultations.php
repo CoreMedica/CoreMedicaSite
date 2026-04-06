@@ -333,7 +333,7 @@ include '../includes/header.php';
             </ol>
 
             <div class="svc-expect__cta">
-                <a href="https://coremedica.cliniko.com/bookings"
+                <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799879291610080096&appointment_type_id[]=1799880196732494689#service"
                    class="btn btn--primary"
                    target="_blank"
                    rel="noopener noreferrer">
@@ -375,7 +375,7 @@ include '../includes/header.php';
                         administered at the same visit. Injection cost is additional to the
                         consultation fee.
                     </p>
-                    <a href="https://coremedica.cliniko.com/bookings"
+                    <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799879291610080096&appointment_type_id[]=1799880196732494689#service"
                        class="btn btn--primary"
                        target="_blank"
                        rel="noopener noreferrer">
@@ -765,7 +765,7 @@ include '../includes/header.php';
                 </ul>
 
                 <div class="svc-booking__ctas">
-                    <a href="https://coremedica.cliniko.com/bookings"
+                    <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?appointment_type_id[]=1799879291610080096&appointment_type_id[]=1799880196732494689#service"
                        class="btn btn--primary"
                        target="_blank"
                        rel="noopener noreferrer">

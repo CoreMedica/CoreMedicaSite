@@ -48,7 +48,7 @@ include '../includes/header.php';
             </p>
 
             <div class="svc-hero__ctas">
-                <a href="https://coremedica.cliniko.com/bookings" class="btn btn--primary" target="_blank" rel="noopener">
+                <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?business_id=1799806171821907984&appointment_type_id=1800012842410189686" class="btn btn--primary" target="_blank" rel="noopener">
                     Book a Clinic Appointment
                 </a>
                 <button class="btn btn--outline" data-modal-open="home-visit-modal" type="button">
@@ -202,7 +202,7 @@ include '../includes/header.php';
         </ol>
 
         <div class="svc-expect__cta">
-            <a href="https://coremedica.cliniko.com/bookings" class="btn btn--primary" target="_blank" rel="noopener">
+            <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?business_id=1799806171821907984&appointment_type_id=1800012842410189686" class="btn btn--primary" target="_blank" rel="noopener">
                 Book Your Appointment
             </a>
         </div>
@@ -237,7 +237,7 @@ include '../includes/header.php';
                     Full clinical assessment and treatment consultation. Where injection therapy is agreed and
                     clinically indicated, this is administered at the same appointment. No GP referral required.
                 </p>
-                <a href="https://coremedica.cliniko.com/bookings" class="btn btn--primary" target="_blank" rel="noopener">
+                <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?business_id=1799806171821907984&appointment_type_id=1800012842410189686" class="btn btn--primary" target="_blank" rel="noopener">
                     Book Clinic Appointment
                 </a>
             </div>
@@ -253,7 +253,7 @@ include '../includes/header.php';
                     Clinical assessment and discussion only — for patients who wish to explore options before
                     committing to treatment, or where treatment is not appropriate at this appointment.
                 </p>
-                <a href="https://coremedica.cliniko.com/bookings" class="btn btn--primary" target="_blank" rel="noopener">
+                <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?business_id=1799806171821907984&appointment_type_id=1800012842410189686" class="btn btn--primary" target="_blank" rel="noopener">
                     Book Appointment
                 </a>
             </div>
@@ -607,7 +607,7 @@ include '../includes/header.php';
                 </ul>
 
                 <div class="svc-booking__ctas">
-                    <a href="https://coremedica.cliniko.com/bookings" class="btn btn--primary" target="_blank" rel="noopener">
+                    <a href="https://promedico-ear-clinic.uk2.cliniko.com/bookings?business_id=1799806171821907984&appointment_type_id=1800012842410189686" class="btn btn--primary" target="_blank" rel="noopener">
                         Book Clinic Appointment
                     </a>
                     <button class="btn btn--outline" data-modal-open="home-visit-modal" type="button">
